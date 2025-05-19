@@ -17,6 +17,23 @@ This is jshell
 
 class Hello{
     public static void main(String a[]){
+
+        // integer
+        int num = 15;
+        byte by = 127;
+        short sh =  76;
+        long l = 212323l;
+
+        // decimal
+        double d = 123.123; // by defaullt
+        float f = 123.123f;
+
+        // character
+        char c = 'c';
+
+        // boolean
+        boolean bool = true;
+
         System.out.print("Hello World");
     }
 
