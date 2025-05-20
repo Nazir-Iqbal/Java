@@ -1,6 +1,6 @@
 class cast{
 
-    public static void main(String arr[]){
+    public static void main(String args[]){
         byte b = 127;
         int a = 258;
         // explicit type casting
