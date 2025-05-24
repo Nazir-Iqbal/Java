@@ -1,9 +1,9 @@
-import java.util.Vector;
+package tools;
 
-class Calc
+public class Calc
 {   
-    int num1;
-    int num2;
+    public int num1;
+    public int num2;
 
     // public Calc(){
     //     num1 = 0;

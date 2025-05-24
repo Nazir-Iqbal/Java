@@ -1,3 +1,4 @@
+package tools;
 import java.util.Vector;
 
 public class VeryAdvCalc extends AdvCalc
@@ -9,7 +10,7 @@ public class VeryAdvCalc extends AdvCalc
         return gcd(b, a % b);
     }
 
-    Vector<Integer> factor(){
+    public Vector<Integer> factor(){
         Vector<Integer> vec1 = new Vector<>();
         int gcd = gcd(num1,num2);
 

@@ -1,5 +1,7 @@
 import java.util.Vector;
 
+import tools.*;
+
 class Demo
 {
     public static void main(String[] args){
