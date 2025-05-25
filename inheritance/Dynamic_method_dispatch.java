@@ -14,6 +14,10 @@ class C extends A{
     public void show(){
         System.out.println("In the show method of class C");
     }
+
+    public void show1(){
+        System.out.println("Another method of class C");
+    }
 }
 
 class Demo
@@ -27,5 +31,14 @@ class Demo
 
         obj = new C(); // referencing to the object of class C
         obj.show();
+
+        // upcasting;
+        A obj1 = new C();
+        obj1.show();
+        // obj1.show1(); // this will not work bcz class does not have method show1
+        
+        // downcasting
+        C obj2 = (C) obj1;
+        obj2.show1();
     }
 }
