@@ -1,7 +1,8 @@
+import tools.*;
 
-import tools.Calc;
-import tools.AdvCalc;
-import tools.VeryAdvCalc;
+// import tools.Calc;
+// import tools.AdvCalc;
+// import tools.VeryAdvCalc;
 
 class Demo
 {
